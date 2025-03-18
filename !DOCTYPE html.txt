@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vizaty - Karakteri yt në Art</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fdfdfd; }
+    header { background: #ff7f50; color: white; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 3em; margin-bottom: 10px; }
+    header p { font-size: 1.3em; }
+    section { padding: 50px 20px; text-align: center; }
+    section h2 { font-size: 2.5em; margin-bottom: 20px; }
+    .gallery img { width: 250px; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .steps { display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-top: 40px; }
+    .step { max-width: 250px; }
+    .step img { width: 100px; margin-bottom: 15px; }
+    .prices { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; }
+    .price-card { background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); padding: 20px; max-width: 250px; }
+    .price-card h3 { margin-top: 0; }
+    footer { background: #ff7f50; color: white; padding: 30px 20px; text-align: center; }
+    footer a { color: white; text-decoration: none; margin: 0 10px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vizaty</h1>
+    <p>Karakteri yt i personalizuar - nga fotoja në një vepër unike arti!</p>
+  </header>
+
+  <section>
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <img src="gallery1.jpg" alt="Portret i personalizuar">
+      <img src="gallery2.jpg" alt="Karakter çift">
+      <img src="gallery3.jpg" alt="Familje e vizatuar">
+      <img src="gallery4.jpg" alt="Avatar për rrjete sociale">
+    </div>
+  </section>
+
+  <section>
+    <h2>Si Funksionon?</h2>
+    <div class="steps">
+      <div class="step">
+        <img src="icon1.png" alt="Hapi 1">
+        <h3>1. Dërgo foton</h3>
+        <p>Na dërgo një foto të qartë në DM ose WhatsApp.</p>
+      </div>
+      <div class="step">
+        <img src="icon2.png" alt="Hapi 2">
+        <h3>2. Vizatojmë për ty</h3>
+        <p>Ne krijojmë ilustrimin tënd unik në Procreate & Photoshop.</p>
+      </div>
+      <div class="step">
+        <img src="icon3.png" alt="Hapi 3">
+        <h3>3. E merr në format dixhital</h3>
+        <p>Ta dërgojmë artin tënd për të ruajtur ose printuar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Çmimet</h2>
+    <div class="prices">
+      <div class="price-card">
+        <h3>Portret Individual</h3>
+        <p>3,500 - 4,500 lekë</p>
+      </div>
+      <div class="price-card">
+        <h3>Çift</h3>
+        <p>5,000 - 6,000 lekë</p>
+      </div>
+      <div class="price-card">
+        <h3>Familje (3-4 persona)</h3>
+        <p>7,000 - 8,500 lekë</p>
+      </div>
+      <div class="price-card">
+        <h3>Avatar për rrjete sociale</h3>
+        <p>2,500 lekë</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Feedback nga klientët</h2>
+    <p>“Shumë e kënaqur! Një kujtim i veçantë.” – Erisa M.</p>
+    <p>“Më pëlqeu pafund! E kam si foto profili.” – Arjan T.</p>
+    <p>“I bëra dhuratë partnerit tim dhe i ra shumë në sy.” – Blerina K.</p>
+  </section>
+
+  <footer>
+    <h3>Na Kontakto</h3>
+    <a href="https://www.instagram.com">Instagram</a>
+    <a href="https://www.facebook.com">Facebook</a>
+    <a href="https://www.tiktok.com">TikTok</a>
+    <a href="https://wa.me/355">WhatsApp</a>
+  </footer>
+
+</body>
+</html>
